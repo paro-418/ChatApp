@@ -12,5 +12,5 @@ have follow these steps:
 3. move to the server folder & install dependencies
 4. make a variable **PORT** inside .env file and assign it a value. **eg PORT = 5000**
 5. make a variable **MONGO_URL** and assign it the url of your data base
-   **MONGO_URL='mongodb+srv://<USER>:<PASSWORD>@<CLUSTER_NAME>.xowvhp7.mongodb.net/<DATABASE_NAME>?retryWrites=true&w=majority'**
+   **MONGO_URL='mongodb+srv://USER:PASSWORD@CLUSTER_NAME.xowvhp7.mongodb.net/DATABASE_NAME?retryWrites=true&w=majority'**
 6. finally start both client & server folder server
